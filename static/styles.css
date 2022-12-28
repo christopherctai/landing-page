@@ -30,7 +30,6 @@
 .info {
     width: 300px;
     flex: 1 0 auto;
-    flex-shrink: 0
 }
 
 .header-small {
@@ -50,6 +49,8 @@ button {
     background-color: #3882F6;
     color: white;
     padding: 8px 24px;
+    border-color: white;
+    border-radius: 7px;
 }
 
 .main-image {
@@ -60,6 +61,7 @@ button {
 .big-container-2 {
     color: #E5E7EB;
     height: 400px;
+    padding: 50px
 }
 
 .header {
@@ -67,14 +69,13 @@ button {
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    margin: 20px;
+    margin-bottom: 50px;
 }
 
-.container {
+.card-container {
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 30px
+    justify-content: space-evenly;
+    gap: 16px;
 }
 
 .card {
@@ -107,11 +108,50 @@ button {
     font-size: 36px;
     color: #1F2937;
     margin-bottom: 40px;
+    display: flex;
+}
+
+.quote-inception {
+    width: 700px;
+    flex: 1 0 auto;
 }
 
 .quoter {
     font-size: 24px;
     color: #1F2937;
+}
+
+.big-container-4 {
+    color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 80px; 
+}
+
+.action-container {
+    flex: 1;
+    background-color:#3882F6;
+    border-radius: 8px;
+    display: flex; 
+    padding: 24px 80px; 
+    align-items: center;
+    gap: 200px;
+}
+
+.heading-small {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 16px;
+    color: white;
 }
 
 ul {
